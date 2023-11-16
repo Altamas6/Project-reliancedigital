@@ -1,1 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.upper{
+    width: 100%;
+    height: 20vh;
+    background: #e42529;
+}
+.ull{
+    text-align: end;
+}
+.ull li{
+    color: #ffff;
+    font-size: 13px;
+    list-style: none;
+    display: inline-block;
+    border-right: 3px solid #ccc;
+    margin-right: 10px;
+    padding-right: 10px;
+    
+}
+li:last-child{
+    border-right: none;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.navbar .inlineitem{
+    display: inline-block;
+}
+.inlineitem img{
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.inlineitem .search-container{
+    margin-top: 15px;
+}
+.inlineitem ul {
+    margin-top: 20px;
+    margin-right: -20px;
+}
+.search-container {
+    position: relative;
+}
 
+.search-box {
+    width: 400px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+}
+.navlower{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 6vh;
+    background: #003380;
+    text-align: center;
+}
+.navlower ul {
+    list-style: none;
+    display: inline-flex;
+    font-size: 13px;
+    display: flex;
+    justify-content:space-around ;
+}
+.navlower ul li{
+    margin-top: 10px;
+}
+.navlower ul li a{
+    text-decoration: none;
+    color: #ffff;
+}
+.navlower .hdd .hd :hover{
+    background: #e42529;
+    padding: 10px 12px;
+}
+.navlower .hdd .hd .fa-solid{
+    margin-left: 6px;
+}
+.sub-1{
+    display: none;
+    width: 90%;
+    height: 60vh;
+    z-index: 2;
+}
+.navlower .hdd .hd:hover .sub-1{
+    display: block;
+    position: absolute;
+    background: #142c52;
+    margin-top: 14.49px;
+    border: 1px solid #ffff;
+}
+.navlower .hdd .hd:hover .sub-1 .a{
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    text-align: left;
+    margin-left: 20px;
+}
+.navlower .hdd .hd:hover .sub-1 .b{
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: absolute;
+    margin-left: 150px;
+    background: #142c52
+}
+.navlower .hdd .hd:hover .sub-1 .c{
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: absolute;
+    margin-left: 400px;
+    background: #142c52
+}
+.sub-2{
+    display: none;
+    width: 80%;
+    height: 50vh;
+    border: 1px solid #ffff;
+    z-index: 2;
+}
+.navlower .hdd .hd:hover .sub-2{
+    display: block;
+    position: absolute;
+    background: #142c52;
+    margin-top: 14.49px;
+}
+
+.navlower .hdd .hd:hover .sub-2 .bb{
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    text-align: left;
+    margin-left: 20px;
+    background: #142c52
+    
+}
+.navlower .hdd .hd:hover .sub-2 .cc{
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: absolute;
+    margin-left: 150px;
+    background: #142c52
+}
+.navlower .hdd .hd:hover .sub-2 .dd{
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: absolute;
+    margin-left: 300px;
+    background: #142c52
+}
+.sub-3{
+    display: none;
+    width: 75%;
+    height: 50vh;
+    border: 1px solid #ffff;
+    z-index: 2;
+}
+.navlower .hdd .hd:hover .sub-3{
+    display: block;
+    position: absolute;
+    background: #142c52;
+    margin-top: 14.49px;
+}
+.navlower .hdd .hd:hover .sub-3 .bb{
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    text-align: left;
+    margin-left: 20px;
+    background: #142c52
+    
+}
+.navlower .hdd .hd:hover .sub-3 .cc{
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: absolute;
+    margin-left: 200px;
+    background: #142c52
+}
+.navlower .hdd .hd:hover .sub-3 .dd{
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: absolute;
+    margin-left: 400px;
+    background: #142c52
+}
+.sub-4{
+    display: none;
+    width: 68%;
+    height: 50vh;
+    border: 1px solid #ffff;
+    z-index: 2;
+}
+.navlower .hdd .hd:hover .sub-4{
+    display: block;
+    position: absolute;
+    background: #142c52;
+    margin-top: 14.49px;
+}
+.navlower .hdd .hd:hover .sub-4 .bb{
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    text-align: left;
+    margin-left: 20px;
+    background: #142c52
+    
+}
+.navlower .hdd .hd:hover .sub-4 .cc{
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: absolute;
+    margin-left: 230px;
+    background: #142c52
+}
+.navlower .hdd .hd:hover .sub-4 .dd{
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: absolute;
+    margin-left: 450px;
+    background: #142c52
+}
+.sub-5{
+    display: none;
+    align-items: center;
+    width: 60%;
+    height: 70vh;
+    border: 1px solid #ffff;
+    z-index: 2;
+}
+.navlower .hdd .hd:hover .sub-5{
+    display: block;
+    position: absolute;
+    background: #142c52;
+    margin-top: 14.49px;
+}
+.navlower .hdd .hd:hover .sub-5 .bb{
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    text-align: left;
+    margin-left: 20px;
+    background: #142c52
+    
+}
+.navlower .hdd .hd:hover .sub-5 .cc{
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: absolute;
+    margin-left: 200px;
+    background: #142c52
+}
+.navlower .hdd .hd:hover .sub-5 .dd{
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: absolute;
+    margin-left: 400px;
+    background: #142c52
+}
+.slid{
+    margin-top: 400px;
+    position:relative;
+    
+}
+.slid img{
+    margin-top: 200px;
+    animation: slider 2s infinite linear;
+}
+.slider-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease; 
+  }
+  
+  .slide {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slider-container button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 8px;
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  .cont{
+    width: 100%;
+    background: #ffff;
+    padding: 20px 20.4688px;
+    margin: 10px;
+  }
+  .heading{
+    position: relative;
+  }
+  #butt{
+    margin-top: -20px;
+    position: absolute;
+    font-size: 12px;
+    color: #ffff;
+    padding: 4px 12px;
+    background: #003380;
+    margin-left: 170px;
+  }
+  .conta{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    transition: transform 0.5s ease;
+    flex-shrink: unset;
+  }
+  .content .laptop{
+    box-sizing: border-box;
+    height: 290px;
+    width: 332.29px
+  }
+  .content .laptop img{
+    width: 180px;
+    height: 180px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .conta .arrow{
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .conta .arrow button{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    border: 1px solid gray;
+    background: transparent;
+
+
+  }
+.pp{
+    font-size: 11px;
+    color: rgb(104, 101, 101);
+}
+  
